@@ -1,0 +1,31 @@
+import React from "react";
+
+const NewsLetter = () => {
+  return (
+    <section className="my-6 hero is-link is-link">
+      <div className="columns hero-body">
+        <div className="column is-10 is-offset-1">
+          <div className="container has-text-centered is-fluid">
+            <h2 className="title is-4">Sign up for our newsletter</h2>
+            <div className="column is-6 is-offset-3">
+              <div className="field has-addons has-addons-centered">
+                <div className="control is-expanded">
+                  <input
+                    className="input "
+                    type="text"
+                    placeholder="Email address"
+                  />
+                </div>
+                <div className="control">
+                  <a className="button is-info">Subscribe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default NewsLetter;

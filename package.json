@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bulma": "^0.9.4",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.5",
     "next": "13.0.5",
